@@ -1,31 +1,28 @@
-# Design patterns in spring boot 
-[![CircleCI](https://circleci.com/gh/indrekru/design-patterns-spring-boot.svg?style=svg)](https://circleci.com/gh/indrekru/design-patterns-spring-boot) 
 
-This repository is a simple spring boot application, that demonstrates a few design patterns:
+Este repositório é um aplicativo simples de inicialização por mola, que demonstra alguns padrões de design:
 
-* Singleton
-* Controller
-* Factory
-* Strategy
-* Proxy
-* Observer
-* Aspect-oriented programming
+*Singleton
+* Controlador
+* Fábrica
+* Estratégia
+* Procuração
+* Observador
+* Programação Orientada a Aspectos
 
-This demo application retrieves contact phone numbers from 2 different bank's websites (more banks can be added) with specific implementations per bank and offers a nice interface to hide the specifics.
+Este aplicativo de demonstração recupera números de telefone de contato de sites de 2 bancos diferentes (mais bancos podem ser adicionados) com implementações específicas por banco e oferece uma interface agradável para ocultar os detalhes.
 
-## Getting Started
+## Começando
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See running for notes on how to run the project on a system.
+Estas instruções fornecerão uma cópia do projeto em funcionamento em sua máquina local para fins de desenvolvimento e teste. Consulte execução para obter notas sobre como executar o projeto em um sistema.
 
-### Prerequisites
+### Pré-requisitos
 
-1. Clone the project to your local environment:
+1. Clone o projeto em seu ambiente local:
     ```
-    git clone https://github.com/indrekru/design-patterns-spring-boot.git
+    git clone https://github.com/LaisAlba/designPatternsJavaSpring.git
     ```
 
-2. You need maven installed on your environment:
-
+2. Você precisa do maven instalado em seu ambiente:
     #### Mac (homebrew):
     
     ```
@@ -35,43 +32,37 @@ These instructions will get you a copy of the project up and running on your loc
     ```
     sudo apt-get install maven
     ```
+    
+### Instalando
 
-### Installing
-
-Once you have maven installed on your environment, install the project dependencies via:
+Depois de instalar o maven em seu ambiente, instale as dependências do projeto por meio de:
 
 ```
 mvn install
 ```
 
-## Testing
+## Testando
 
-Run all tests:
+Executando todos os testes:
 ```
 mvn test
 ```
 
-## Running
+## Executando
 
-Once you have installed dependencies, this can be run from the `Application.java` main method directly,
-or from a command line:
+Depois de instalar as dependências, isso pode ser executado diretamente a partir do método principal `Application.java`,
+ou de uma linha de comando:
 ```
 mvn spring-boot:run
 ```
 
-Open browser and go to http://localhost:8080/api/v1/banks and you should see the results
+Abra o navegador e vá para http://localhost:8080/api/v1/banks e você deverá ver os resultadosv
 
-## Built With
+
+## Construído com
 
 * [Spring Boot](https://spring.io/projects/spring-boot) - Spring Boot 2
 * [Spock](http://spockframework.org/) - Spock testing framework
 * [Maven](https://maven.apache.org/) - Dependency Management
 
-## Contributing
 
-If you have any improvement suggestions please create a pull request and I'll review it.
-
-
-## Authors
-
-* **Lais alba** - *Initial work* - [Github](https://github.com/LaisAlba/designPatternsJavaSpring.git)
