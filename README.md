@@ -74,15 +74,4 @@ If you have any improvement suggestions please create a pull request and I'll re
 
 ## Authors
 
-* **Indrek Ruubel** - *Initial work* - [Github](https://github.com/indrekru)
-
-See also the list of [contributors](https://github.com/indrekru/design-patterns-spring-boot/graphs/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License
-
-## Acknowledgments
-
-* Big thanks to Pivotal for Spring Boot framework, love it!
-* Also check out my Spring Boot 2 Oauth2 resource server example: https://github.com/indrekru/spring-boot-2-oauth2-resource-server
+* **Lais alba** - *Initial work* - [Github](https://github.com/LaisAlba/designPatternsJavaSpring.git)
